@@ -1,4 +1,4 @@
-public class Women extends Person{
+public class Women extends Person {
     boolean notSick = true;
     boolean mother = false;
     int children = 0;
@@ -10,7 +10,6 @@ public class Women extends Person{
 
     public void setChildren(int children) {
         this.children = children;
-
     }
 
     public boolean isNotSick() {
@@ -22,7 +21,7 @@ public class Women extends Person{
     }
 
     public boolean isMother() {
-        if (children > 0){
+        if (children > 0) {
             setMother(true);
             return mother;
         }
@@ -43,7 +42,7 @@ public class Women extends Person{
         this.gender = gender;
     }
 
-    public Women(){
+    public Women() {
 
     }
 

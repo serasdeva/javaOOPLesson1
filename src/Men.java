@@ -1,14 +1,15 @@
-public class Men extends Person{
+public class Men extends Person {
     boolean militaryDuty = false;
     boolean notSick = true;
     boolean father = false;
     int children = 0;
     String gender = "Men";
+
     public Men() {
     }
 
     public boolean isFather() {
-        if (children > 0){
+        if (children > 0) {
             setFather(true);
             return father;
         }
@@ -36,7 +37,7 @@ public class Men extends Person{
     }
 
     public boolean isMilitaryDuty() {
-        if (age >= 18 && notSick){
+        if (age >= 18 && notSick) {
             setMilitaryDuty(true);
             return militaryDuty;
         }
@@ -65,6 +66,5 @@ public class Men extends Person{
                 ", age = '" + getAge() + '\'' +
                 ", gender = '" + getGender() + '\'' +
                 ", militaryDuty = " + isMilitaryDuty();
-
     }
 }

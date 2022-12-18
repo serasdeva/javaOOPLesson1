@@ -50,36 +50,35 @@ public class Person {
                 '}';
     }
 
-    public void say(){
+    public void say() {
 
     }
 
-    public void see(){
+    public void see() {
 
     }
 
-    public void hear(){
-
-
-    }
-
-    public void toGo(){
+    public void hear() {
 
     }
 
-    public void run(){
+    public void toGo() {
 
     }
 
-    public void eat(){
+    public void run() {
 
     }
 
-    public void drink(){
+    public void eat() {
 
     }
 
-    public void printGender(){
+    public void drink() {
+
+    }
+
+    public void printGender() {
 
     }
 }
