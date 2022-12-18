@@ -55,7 +55,7 @@ public class Person {
     }
 
     public void see() {
-
+        System.out.println("I see you");
     }
 
     public void hear() {
