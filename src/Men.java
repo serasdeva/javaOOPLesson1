@@ -56,7 +56,6 @@ public class Men extends Person {
     @Override
     public void setGender(String gender) {
         this.gender = gender;
-
     }
 
     @Override
