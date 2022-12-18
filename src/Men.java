@@ -65,5 +65,6 @@ public class Men extends Person{
                 ", age = '" + getAge() + '\'' +
                 ", gender = '" + getGender() + '\'' +
                 ", militaryDuty = " + isMilitaryDuty();
+
     }
 }

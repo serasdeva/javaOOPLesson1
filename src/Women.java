@@ -10,6 +10,7 @@ public class Women extends Person{
 
     public void setChildren(int children) {
         this.children = children;
+
     }
 
     public boolean isNotSick() {
