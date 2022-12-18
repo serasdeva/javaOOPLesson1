@@ -6,6 +6,7 @@ public class Women extends Person {
 
     public int getChildren() {
         return children;
+
     }
 
     public void setChildren(int children) {
